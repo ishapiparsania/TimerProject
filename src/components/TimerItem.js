@@ -81,7 +81,6 @@ export default function TimerItem({ timer, dispatch }) {
         <Button title="Reset" onPress={resetTimer} disabled={status === 'Completed'} color="#F44336" />
       </View>
 
-      {/* 🎉 Completion Modal */}
       <Modal
         animationType="slide"
         transparent={true}
